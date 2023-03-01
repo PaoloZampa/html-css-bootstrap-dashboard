@@ -1,8 +1,8 @@
 /* #region debug */
 
-.debug .sidebar {
+/* .debug .sidebar {
     background-color: aqua;
-}
+} */
 
 .debug .content {
     background-color: blueviolet;
@@ -11,6 +11,18 @@
 /* #endregion debug */
 
 /* #region utilities */
+
+:root {
+    --sidebar: #051e34;
+    --primary: #f8f9fa;
+    --secondary: #e5e5e5;
+    --blue-head: #1b72e8;
+}
+
+.bg_sidebar {
+    background-color: var(--sidebar);
+}
+
 /* #endregion utilities */
 
 /* #region top */
@@ -24,7 +36,6 @@
     height: 65px;
 }
 
-
 /* #endregion top */
 
 /* #region bottom*/
@@ -33,6 +44,7 @@
     width: 70px;
     overflow-y: hidden;
     height: calc(100vh - 65px);
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .bottom>.content {
