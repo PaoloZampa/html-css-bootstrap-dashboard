@@ -1,0 +1,57 @@
+/* #region debug */
+
+.debug .sidebar{
+    background-color: aqua;
+}
+
+.debug .content{
+    background-color: blueviolet;
+}
+
+/* #endregion debug */
+
+/* #region utilities */
+/* #endregion utilities */
+
+/* #region top */
+
+.top{
+    height: 65px;
+    width: 100%;
+}
+
+/* #endregion top */
+
+/* #region bottom*/
+
+.bottom>.sidebar {
+    width: 70px;
+    overflow-y: hidden;
+    height: calc(100vh - 65px);
+}
+
+.bottom>.content {
+    width: calc(100% - 70px);
+    overflow-y: auto;
+    height: calc(100vh - 65px);
+}
+
+/* #endregion bottom*/
+
+/* #region mediaquery */
+
+@media screen and (min-width: 768px) {
+
+    .bottom>.sidebar {
+        width: 150px;
+    }
+
+    .bottom>.content {
+        width: calc(100% - 150px);
+    }
+    
+}
+
+/* #endregion mediaquery */
+
+
