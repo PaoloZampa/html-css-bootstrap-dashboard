@@ -18,6 +18,7 @@
     --secondary: #e5e5e5;
     --blue-head: #1b72e8;
     --badge-darkblue: #165cbd;
+    --orangetable: #f26551;
 }
 
 .bg_darkblue {
@@ -70,6 +71,17 @@
     height: calc(100vh - 65px);
 }
 
+.bg_orange_rounded {
+    background-color: var(--orangetable);
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+
 /* #endregion bottom*/
 
 /* #region mediaquery */
@@ -84,9 +96,11 @@
         width: calc(100% - 150px);
     }
 
-    #offcanvasRight {
+    #offcanvasRight,
+    .w_lg_50 {
         width: 50%;
     }
+
 
 }
 
