@@ -17,6 +17,11 @@
     --primary: #f8f9fa;
     --secondary: #e5e5e5;
     --blue-head: #1b72e8;
+    --badge-darkblue: #165cbd;
+}
+
+.bg_darkblue {
+    background-color: var(--badge-darkblue);
 }
 
 .bg_sidebar {
@@ -40,12 +45,24 @@
 
 /* #region bottom*/
 
+/* sidebar */
+
 .bottom>.sidebar {
     width: 70px;
     overflow-y: hidden;
     height: calc(100vh - 65px);
     background-image: url(../img/sidebar-bg.png);
 }
+
+/* main header */
+
+#main_header {
+    height: 200px;
+    background-color: var(--blue-head);
+    width: 100%;
+}
+
+/* maincontent */
 
 .bottom>.content {
     width: calc(100% - 70px);
@@ -57,7 +74,7 @@
 
 /* #region mediaquery */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 
     .bottom>.sidebar {
         width: 150px;
