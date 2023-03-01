@@ -1,10 +1,10 @@
 /* #region debug */
 
-.debug .sidebar{
+.debug .sidebar {
     background-color: aqua;
 }
 
-.debug .content{
+.debug .content {
     background-color: blueviolet;
 }
 
@@ -15,10 +15,15 @@
 
 /* #region top */
 
-.top{
+.top {
     height: 65px;
     width: 100%;
 }
+
+.top nav {
+    height: 65px;
+}
+
 
 /* #endregion top */
 
@@ -49,9 +54,7 @@
     .bottom>.content {
         width: calc(100% - 150px);
     }
-    
+
 }
 
 /* #endregion mediaquery */
-
-
