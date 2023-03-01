@@ -690,7 +690,12 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="text-center">
+                    <input class="btn btn-danger my-3" type="button"
+                        onclick="jump()" value="Cambia tema">
+                    <img id="jump" src="./assets/img/face.jpg" alt="">
+                    <audio id="voice" src="./assets/audio/audio1.mp3"></audio>
+                </div>
             </div>
 
         </div>
@@ -701,6 +706,14 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
 
+        <script>
+                function jump() {
+                    var jumpscare = document.getElementById("jump");
+                    jumpscare.style.visibility="visible";
+                    var audio = document.getElementById("voice");
+                    audio.play();
+                }
+            </script>
     </body>
 
 </html>
