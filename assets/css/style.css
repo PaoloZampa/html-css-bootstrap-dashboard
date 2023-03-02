@@ -71,7 +71,7 @@
     flex-direction: column;
     gap: 2rem;
     width: fit-content;
-    background: #ffffff85;
+    background: #524e4e7e;
     padding: 1rem;
     border-radius: 0 1rem 1rem 0;
 }
@@ -95,7 +95,7 @@
 }
 
 .color-picker input[type="radio"]#pink {
-    --radio-color: rgb(252, 156, 215);
+    --radio-color: rgb(243, 111, 192);
 }
 
 .color-picker input[type="radio"]#blue {
