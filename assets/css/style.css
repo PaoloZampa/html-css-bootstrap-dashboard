@@ -20,6 +20,7 @@
     --badge-darkblue: #165cbd;
     --orangetable: #f26551;
     --ringbell: #ff8f00;
+    --header: #fff;
 }
 
 .bg_darkblue {
@@ -49,6 +50,10 @@
 
 .top nav {
     height: 65px;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: var(--header);
 }
 
 /* #endregion top */
@@ -118,6 +123,7 @@
     --badge-darkblue: #ad3cf8;
     --orangetable: #7007fa;
     --ringbell: #00d3f8;
+    --header: #b68565;
 }
 
 :root:has(#pink:checked) {
@@ -128,6 +134,7 @@
     --badge-darkblue: #ad3cf8;
     --orangetable: #7007fa;
     --ringbell: #00d3f8;
+    --header: #b68565;
 }
 
 .blue {
@@ -138,6 +145,7 @@
     --badge-darkblue: #3c87f8;
     --orangetable: #5f4bbb;
     --ringbell: #00f8a5;
+    --header: #5f4bbb;
 }
 
 :root:has(#blue:checked) {
@@ -148,6 +156,7 @@
     --badge-darkblue: #3c87f8;
     --orangetable: #5f4bbb;
     --ringbell: #00f8a5;
+    --header: #5f4bbb;
 }
 
 .green {
@@ -158,6 +167,7 @@
     --badge-darkblue: #3cf8a0;
     --orangetable: #04f0b5;
     --ringbell: #00f8a5;
+    --header: #727000;
 }
 
 :root:has(#green:checked) {
@@ -168,6 +178,7 @@
     --badge-darkblue: #3cf8a0;
     --orangetable: #04f0b5;
     --ringbell: #00f8a5;
+    --header: #727000;
 }
 
 .dark {
@@ -177,7 +188,8 @@
     --blue-head: #171a18;
     --badge-darkblue: #363b39;
     --orangetable: #000000;
-    --ringbell: #ff00f2;
+    --ringbell: #b35d9d;
+    --header: #626264;
 }
 
 :root:has(#dark:checked) {
@@ -187,7 +199,8 @@
     --blue-head: #171a18;
     --badge-darkblue: #363b39;
     --orangetable: #000000;
-    --ringbell: #ff00f2;
+    --ringbell: #b35d9d;
+    --header: #626264;
 }
 
 /* #endregion color picker */
