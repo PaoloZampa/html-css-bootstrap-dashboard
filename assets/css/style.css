@@ -19,6 +19,7 @@
     --blue-head: #1b72e8;
     --badge-darkblue: #165cbd;
     --orangetable: #f26551;
+    --ringbell: #ff8f00;
 }
 
 .bg_darkblue {
@@ -27,6 +28,10 @@
 
 .bg_sidebar {
     background-color: var(--sidebar);
+}
+
+.text_ringbell{
+    color: var(--ringbell);
 }
 
 /* #endregion utilities */
