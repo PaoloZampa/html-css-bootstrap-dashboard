@@ -116,23 +116,23 @@
                 <!-- color picker -->
                 <form class="color-picker mt-auto" action="">
                     <fieldset>
-                      <legend class="visually-hidden">Pick a color scheme</legend>
-                      <label for="light" class="visually-hidden">Light</label>
-                      <input type="radio" name="theme" id="light" checked>
-                  
-                      <label for="pink" class="visually-hidden">Pink theme</label>
-                      <input type="radio" id="pink" name="theme">
-                  
-                      <label for="blue" class="visually-hidden">Blue theme</label>
-                      <input type="radio" id="blue" name="theme">
-                  
-                      <label for="green" class="visually-hidden">Green theme</label>
-                      <input type="radio" id="green" name="theme">
-                  
-                      <label for="dark" class="visually-hidden">Dark theme</label>
-                      <input type="radio" id="dark" name="theme">
+                        <legend class="visually-hidden">Pick a color scheme</legend>
+                        <label for="light" class="visually-hidden">Light</label>
+                        <input type="radio" name="theme" id="light" checked>
+
+                        <label for="pink" class="visually-hidden">Pink theme</label>
+                        <input type="radio" id="pink" name="theme">
+
+                        <label for="blue" class="visually-hidden">Blue theme</label>
+                        <input type="radio" id="blue" name="theme">
+
+                        <label for="green" class="visually-hidden">Green theme</label>
+                        <input type="radio" id="green" name="theme">
+
+                        <label for="dark" class="visually-hidden">Dark theme</label>
+                        <input type="radio" id="dark" name="theme">
                     </fieldset>
-                  </form>
+                </form>
 
                 <!-- admin -->
                 <div class="mt-auto">
@@ -151,46 +151,48 @@
 
             <!-- main header -->
             <div id="main_header">
-                <div class="row h-100 flex-column flex-md-row text-white p-2
+                <div class="container">
+                    <div class="row h-100 flex-column flex-md-row text-white p-2
                         py-md-5 m-0">
 
-                    <!-- boolean -->
-                    <div class="col order-1 order-md-0">
-                        <span class="h1">Boolean</span>
-                        <span class="badge bg_darkblue">Piano blaze</span>
-                        <div class="my_badges">
-                            <span class="badge
+                        <!-- boolean -->
+                        <div class="col order-1 order-md-0">
+                            <span class="h1">Boolean</span>
+                            <span class="badge bg_darkblue">Piano blaze</span>
+                            <div class="my_badges">
+                                <span class="badge
                                     bg_darkblue my-2">3 app</span>
-                            <span><i class="fa-solid fa-angles-right"></i></span>
-                            <span class="badge
+                                <span><i class="fa-solid fa-angles-right"></i></span>
+                                <span class="badge
                                     bg_darkblue d-lg-none"><i class="fa-solid
                                         fa-plus"></i></span>
-                            <span class="badge
+                                <span class="badge
                                     bg_darkblue d-none d-lg-inline">Boolean
-                                mobile app</span>
-                            <span class="badge
+                                    mobile app</span>
+                                <span class="badge
                                     bg_darkblue d-none d-lg-inline">Boolean web
-                                app</span>
-                            <span class="badge
+                                    app</span>
+                                <span class="badge
                                     bg_darkblue d-none d-lg-inline">Boolean blog
-                                app</span>
+                                    app</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- studenti -->
-                    <div class="col text-lg-center order-2 order-md-1">
-                        <p class="mb-1">
-                            Studenti online negli ultimi 30 minuti
-                        </p>
-                        <span class="h1">125</span>
-                    </div>
+                        <!-- studenti -->
+                        <div class="col text-lg-center order-2 order-md-1">
+                            <p class="mb-1">
+                                Studenti online negli ultimi 30 minuti
+                            </p>
+                            <span class="h1">125</span>
+                        </div>
 
-                    <!-- nuovo studente -->
-                    <div class="col text-lg-end order-0 order-md-2">
-                        <span>Nuovo studente</span>
-                        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" class="btn
+                        <!-- nuovo studente -->
+                        <div class="col text-lg-end order-0 order-md-2">
+                            <span>Nuovo studente</span>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" class="btn
                                 btn-outline-light mx-2"><i class="fa-solid
                                     fa-plus"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -198,113 +200,115 @@
             <!-- offcanvas -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                 aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header">
+                <div class="offcanvas-header bg_header">
                     <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci
                         un nuovo studente</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                    <form class="row g-3">
+                <div class="offcanvas-body bg_header">
+                    <div class="container">
+                        <form class="row g-3">
 
-                        <!-- nome -->
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Nome</label>
-                            <input type="name" class="form-control" id="inputname4">
-                        </div>
-
-                        <!-- cognome -->
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Cognome</label>
-                            <input type="surname" class="form-control" id="inputsurname4">
-                        </div>
-
-                        <!-- email -->
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Email</label>
-                            <div class="input-group">
-                                <div class="input-group-text">@</div>
-                                <input type="text" class="form-control" id="inputemail4">
+                            <!-- nome -->
+                            <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Nome</label>
+                                <input type="name" class="form-control" id="inputname4">
                             </div>
-                        </div>
 
-                        <!-- password -->
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                        </div>
-
-                        <!-- indirizzo email -->
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Indirizzo
-                                Email</label>
-
-                            <div class="input-group">
-                                <div class="input-group-text">@</div>
-                                <input type="text" class="form-control" id="inputemail4">
+                            <!-- cognome -->
+                            <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Cognome</label>
+                                <input type="surname" class="form-control" id="inputsurname4">
                             </div>
-                        </div>
 
-                        <!-- password -->
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                        </div>
-
-                        <!-- indirizzo -->
-                        <div class="col-12">
-                            <label for="inputAddress" class="form-label">Indirizzo</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="Via Brombeis">
-                        </div>
-
-                        <!-- città -->
-                        <div class="col-md-6">
-                            <label for="inputCity" class="form-label">Città</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Napoli">
-                        </div>
-
-                        <!-- stato -->
-                        <div class="col-md-4">
-                            <label for="inputState" class="form-label">Stato</label>
-                            <select id="inputState" class="form-select">
-                                <option selected>Scegli...</option>
-                                <option>Marocco</option>
-                                <option>Tunisia</option>
-                                <option>Siria</option>
-                                <option>Egitto</option>
-                            </select>
-                        </div>
-
-                        <!-- cap -->
-                        <div class="col-md-2">
-                            <label for="inputZip" class="form-label">CAP</label>
-                            <input type="text" class="form-control" id="inputZip" placeholder="80135">
-                        </div>
-
-                        <!-- foto -->
-                        <div class="col-12">
-                            <label class="form-label" for="customFile">Foto</label>
-                            <input type="file" class="form-control" id="customFile" />
-                        </div>
-
-                        <!-- check -->
-                        <div class="col-12">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Check me out
-                                </label>
+                            <!-- email -->
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <div class="input-group">
+                                    <div class="input-group-text">@</div>
+                                    <input type="text" class="form-control" id="inputemail3">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- buttons -->
-                        <div class="col-12">
+                            <!-- password -->
+                            <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword3">
+                            </div>
 
-                            <!-- submit -->
-                            <button type="submit" class="btn btn-primary">Salva</button>
-                            <!-- clear -->
-                            <input class="btn btn-warning" type="reset" value="Svuota">
-                        </div>
-                    </form>
+                            <!-- indirizzo email -->
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Indirizzo
+                                    Email</label>
+
+                                <div class="input-group">
+                                    <div class="input-group-text">@</div>
+                                    <input type="text" class="form-control" id="inputemail4">
+                                </div>
+                            </div>
+
+                            <!-- password -->
+                            <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+
+                            <!-- indirizzo -->
+                            <div class="col-12">
+                                <label for="inputAddress" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Via Brombeis">
+                            </div>
+
+                            <!-- città -->
+                            <div class="col-md-6">
+                                <label for="inputCity" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="Napoli">
+                            </div>
+
+                            <!-- stato -->
+                            <div class="col-md-4">
+                                <label for="inputState" class="form-label">Stato</label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>Scegli...</option>
+                                    <option>Marocco</option>
+                                    <option>Tunisia</option>
+                                    <option>Siria</option>
+                                    <option>Egitto</option>
+                                </select>
+                            </div>
+
+                            <!-- cap -->
+                            <div class="col-md-2">
+                                <label for="inputZip" class="form-label">CAP</label>
+                                <input type="text" class="form-control" id="inputZip" placeholder="80135">
+                            </div>
+
+                            <!-- foto -->
+                            <div class="col-12">
+                                <label class="form-label" for="customFile">Foto</label>
+                                <input type="file" class="form-control" id="customFile" />
+                            </div>
+
+                            <!-- check -->
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Check me out
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- buttons -->
+                            <div class="col-12">
+
+                                <!-- submit -->
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                                <!-- clear -->
+                                <input class="btn btn-warning" type="reset" value="Svuota">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
 

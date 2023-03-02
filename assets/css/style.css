@@ -27,8 +27,16 @@
     background-color: var(--badge-darkblue);
 }
 
+.bg_header {
+    background-color: var(--header);
+}
+
 .bg_sidebar {
     background-color: var(--sidebar);
+}
+
+.bg_ringbell {
+    background-color: var(--ringbell);
 }
 
 .text_ringbell {
