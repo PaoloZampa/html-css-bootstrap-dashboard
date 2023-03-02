@@ -113,6 +113,27 @@
                     </li>
                 </ul>
 
+                <!-- color picker -->
+                <form class="color-picker mt-auto" action="">
+                    <fieldset>
+                      <legend class="visually-hidden">Pick a color scheme</legend>
+                      <label for="light" class="visually-hidden">Light</label>
+                      <input type="radio" name="theme" id="light" checked>
+                  
+                      <label for="pink" class="visually-hidden">Pink theme</label>
+                      <input type="radio" id="pink" name="theme">
+                  
+                      <label for="blue" class="visually-hidden">Blue theme</label>
+                      <input type="radio" id="blue" name="theme">
+                  
+                      <label for="green" class="visually-hidden">Green theme</label>
+                      <input type="radio" id="green" name="theme">
+                  
+                      <label for="dark" class="visually-hidden">Dark theme</label>
+                      <input type="radio" id="dark" name="theme">
+                    </fieldset>
+                  </form>
+
                 <!-- admin -->
                 <div class="mt-auto">
                     <a href="#" class="nav-link text-white" aria-current="page">
@@ -126,7 +147,7 @@
         </div>
 
         <!-- main -->
-        <div class="content">
+        <div class="content bg_primary">
 
             <!-- main header -->
             <div id="main_header">
@@ -602,6 +623,12 @@
                                 </div>
                             </div>
 
+                            <div class="text-center">
+                                <input class="btn btn-danger my-3" type="button" onclick="jump()" value="Cambia tema">
+                                <img id="jump" src="./assets/img/face.jpg" alt="">
+                                <audio id="voice" src="./assets/audio/audio1.mp3"></audio>
+                            </div>
+
                         </div>
 
                         <div class="col-12 col-lg-4 p-2">
@@ -660,11 +687,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="text-center">
-                <input class="btn btn-danger my-3" type="button" onclick="jump()" value="Cambia tema">
-                <img id="jump" src="./assets/img/face.jpg" alt="">
-                <audio id="voice" src="./assets/audio/audio1.mp3"></audio>
             </div>
         </div>
 
