@@ -242,6 +242,11 @@ td:nth-child(5) {
     vertical-align: middle;
 }
 
+.form-check-input:checked {
+    background-color: var(--blue-head);
+    border-color: var(--blue-head);
+}
+
 /* #endregion bottom*/
 
 /* #region mediaquery */
