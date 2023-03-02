@@ -30,7 +30,7 @@
     background-color: var(--sidebar);
 }
 
-.text_ringbell{
+.text_ringbell {
     color: var(--ringbell);
 }
 
@@ -58,6 +58,10 @@
     overflow-y: hidden;
     height: calc(100vh - 65px);
     background-image: url(../img/sidebar-bg.png);
+}
+
+a.nav-link.text-white:hover {
+    background-color: rgba(162, 194, 221, 0.493);
 }
 
 /* main header */
